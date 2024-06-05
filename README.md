@@ -1,7 +1,7 @@
 # Git-Commands
 Git commands And Github
 
-| Comando | Description |
+| Command | Description |
 | ------- | ----------- |
 | `git --version	` | To check git version |
 | `ls -a	` | list all files with hidden files or folder |
@@ -9,7 +9,7 @@ Git commands And Github
 | `git config --global user.email {"email"}` | 	to set user email in local git |
 | `git config --list` | 	show all Git config properties throughout all the variously scoped Git files |
 
-| Comando | Description |
+| Command | Description |
 | ------- | ----------- |
 | `git init ` | to create empty git repository folder |
 | `git status` |  to check status of files |
@@ -18,40 +18,40 @@ Git commands And Github
 ### status-staged : files ready to commit from stage
 ### status-unmodified : not modified any file
 
-| Comando | Description |
+| Command | Description |
 | ------- | ----------- |
 | `git clone {Github_Repo_URL}` | 	to copy GitHub file to local pc |
 | `git clone ssh://git@github.com/[username]/[repository-name].git` | 	Create a local copy of a remote repository |
 
-| Comando | Description |
+| Command | Description |
 | ------- | ----------- |
 | `git add {file_name}` | 	to add file in stage from working directory. |
 | `git add .` | 	to add all files in stage from working directory. |
 | `git add -A` | 	Add all new and changed files to the staging area |
 
-| Comando | Description |
+| Command | Description |
 | ------- | ----------- |
 | `git commit -m “{Message for Changes}”` | 	to commit files from the stage into local directory. |
 | `git rm -r {file-name}` | 	Remove a file (or folder) |
 
-| Comando | Description |
+| Command | Description |
 | ------- | ----------- |
 | `git remote add origin {Github_Repo_URL}` | 	to set GitHub repository as origin to push |
 | `git remote -v` | 	to check remote origin |
 
-| Comando | Description |
+| Command | Description |
 | ------- | ----------- |
 | `git push origin {branch_name}` | 	to push committed files to origin branch of remote Github. |
 | `git push -u origin {branch_name}` | 	to push committed files to origin branch of remote Github. ‘-u ’ to remember branch so  next time we can omit ' origin branchname ' . we just use git push.|
 | `git push` |  to push committed file to remembered origin branch |
 
-| Comando | Description |
+| Command | Description |
 | ------- | ----------- |
 | `git pull` | 	update local repository to newest commit |
 | `git pull origin {branch_name}` | 	Update local repository from modified remote github repository. |
 
 ### master branch is default branch in local git and main branch is default branch in remote GitHub repository
-| Comando | Description |
+| Command | Description |
 | ------- | ----------- |
 | `git branch` | 	to check branches (asterisk denotes the current branch) |
 | `git branch -a` | 	to check all branches local and remote. |
@@ -64,33 +64,33 @@ Git commands And Github
 | `git checkout {branch_name}` | 	to switch to branch |
 | `git checkout -` | 	to switch to last checked out branch |
 
-| Comando | Description |
+| Command | Description |
 | ------- | ----------- |
 | `git diff` | 	to compare working file with stage file |
 | `git diff --staged` | 	to compare staged file with last commited file |
 | `git diff {source_branch} {target_branch}` | 	Preview changes before merge |
 
-| Comando | Description |
+| Command | Description |
 | ------- | ----------- |
 | `git log` | 	to check all commited logs. |
 | `git log --summary` | 	to check all logs in details. |
 | `git log --outline` | 	to check all logs in briefly. |
 
-| Comando | Description |
+| Command | Description |
 | ------- | ----------- |
 | `git checkout {commit_ID}` | 	to get committed file using commit id. |
 | `git checkout {file_name}` | 	to get last committed file. |
 
-| Comando | Description |
+| Command | Description |
 | ------- | ----------- |
 | `git checkout -f` | 	to recover all commited files. |
 
-| Comando | Description |
+| Command | Description |
 | ------- | ----------- |
 | `git merge {branch_name}` | 	to merge branch to current branch |
 | `git merge {source_branch} {target_branch}` | 	to source branch into target branch |
 
-| Comando | Description |
+| Command | Description |
 | ------- | ----------- |
 | `git reset {file_name}` | 	reset staged file to commited file. |
 | `git reset` | 	to reset multiple staged files to commited files. |
