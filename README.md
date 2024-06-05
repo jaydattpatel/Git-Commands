@@ -13,10 +13,10 @@ Git commands And Github
 | ------- | ----------- |
 | `git init ` | to create empty git repository folder |
 | `git status` |  to check status of files |
-### status-untracked : created new files that git does not track
-### status-modified : files modified which are commited track files
-### status-staged : files ready to commit from stage
-### status-unmodified : not modified any file
+#### status-untracked : created new files that git does not track
+#### status-modified : files modified which are commited track files
+#### status-staged : files ready to commit from stage
+#### status-unmodified : not modified any file
 
 | Command | Description |
 | ------- | ----------- |
@@ -98,7 +98,7 @@ Git commands And Github
 | `git reset {commit_ID}` | 	set head to specific commited ID. |
 | `git reset --hard {commit_ID}` | 	set head to specific commited ID and reflects in file. |
 
-# Creating a pull request on GitHub involves several steps:<br />
+# Creating a pull request on GitHub :<br />
 ## 1. Fork the Repository<br />
     If you don't have write access to the repository, you'll need to fork it.
     1.	Go to the repository page on GitHub.
