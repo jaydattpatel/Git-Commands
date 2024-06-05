@@ -106,7 +106,7 @@ Git commands And Github
     2.	Click the "Fork" button at the top right of the page. This will create a copy of the repository under your GitHub account.
 ## 2. Clone the Repository<br />
     Clone the forked repository to your local machine.
-    git clone https://github.com/YOUR-USERNAME/REPOSITORY-NAME.git
+        git clone https://github.com/YOUR-USERNAME/REPOSITORY-NAME.git
         cd REPOSITORY-NAME
 ## 3. Create a New Branch<br />
     Create a new branch for your changes.
@@ -132,11 +132,11 @@ Git commands And Github
 ## 8. Address Feedback<br />
     The repository maintainers may request changes or ask questions about your pull request. Be prepared to make additional commits to your branch to address this feedback.
 ## Summary<br />
-### • Fork the repository<br />
-### • Clone your fork<br />
-### • Create a new branch<br />
-### • Make changes<br />
-### • Commit changes<br />
-### • Push to GitHub<br />
-### • Create a pull request<br />
+#### • Fork the repository
+#### • Clone your fork
+#### • Create a new branch
+#### • Make changes
+#### • Commit changes
+#### • Push to GitHub
+#### • Create a pull request
 
