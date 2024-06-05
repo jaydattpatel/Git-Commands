@@ -100,6 +100,15 @@ Git commands And Github
 | `git reset --hard {commit_ID}` | 	set head to specific commited ID and reflects in file. |
 
 # Creating a pull request on GitHub :<br />
+## Steps:<br />
+####     • Fork the repository
+####     • Clone your fork
+####     • Create a new branch
+####     • Make changes
+####     • Commit changes
+####     • Push to GitHub
+####     • Create a pull request
+
 ## 1. Fork the Repository<br />
     If you don't have write access to the repository, you'll need to fork it.
     1.	Go to the repository page on GitHub.
@@ -131,12 +140,5 @@ Git commands And Github
     8.	Click the "Create pull request" button.
 ## 8. Address Feedback<br />
     The repository maintainers may request changes or ask questions about your pull request. Be prepared to make additional commits to your branch to address this feedback.
-## Summary<br />
-#### • Fork the repository
-#### • Clone your fork
-#### • Create a new branch
-#### • Make changes
-#### • Commit changes
-#### • Push to GitHub
-#### • Create a pull request
+
 
