@@ -99,7 +99,7 @@ Git commands And Github
 | `git reset {commit_ID}` | 	set head to specific commited ID. |
 | `git reset --hard {commit_ID}` | 	set head to specific commited ID and reflects in file. |
 
-# Creating a pull request on GitHub :<br />
+# Fork repository and make a pull request on GitHub :<br />
 ## Steps:<br />
 ####     • Fork the repository
 ####     • Clone your fork
