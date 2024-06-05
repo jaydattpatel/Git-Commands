@@ -50,7 +50,8 @@ Git commands And Github
 | `git pull` | 	update local repository to newest commit |
 | `git pull origin {branch_name}` | 	Update local repository from modified remote github repository. |
 
-### master branch is default branch in local git and main branch is default branch in remote GitHub repository
+#### Master branch is default branch in local git 
+#### Main branch is default branch in remote GitHub repository
 | Command | Description |
 | ------- | ----------- |
 | `git branch` | 	to check branches (asterisk denotes the current branch) |
