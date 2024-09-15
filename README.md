@@ -23,18 +23,18 @@
 | Command | Description |
 | ------- | ----------- |
 | `git clone {Github_Repo_URL}` |    copy GitHub file to local pc |
-| `git clone ssh://git@github.com/[username]/[repository-name].git` |   Create a local copy of a remote repository |
+| `git clone ssh://git@github.com/[username]/[repository-name].git` |   create a local copy of a remote repository |
 
 | Command | Description |
 | ------- | ----------- |
 | `git add {file_name}` |    add file in stage from working directory. |
 | `git add .` |      add all files in stage from working directory. |
-| `git add -A` |    Add all new and changed files to the staging area |
+| `git add -A` |    add all new and changed files to the staging area |
 
 | Command | Description |
 | ------- | ----------- |
 | `git commit -m “{Message for Changes}”` |      commit files from the stage into local directory. |
-| `git rm -r {file-name}` |     Remove a file (or folder) |
+| `git rm -r {file-name}` |     remove a file (or folder) |
 
 | Command | Description |
 | ------- | ----------- |
@@ -50,10 +50,10 @@
 | Command | Description |
 | ------- | ----------- |
 | `git pull` |  update local repository to newest commit |
-| `git pull origin {branch_name}` |     Update local repository from modified remote github repository. |
+| `git pull origin {branch_name}` |     update local repository from modified remote github repository. |
 
-#### Master branch is default branch in local git 
-#### Main branch is default branch in remote GitHub repository
+#### `master` branch is default branch in local git 
+#### `main` branch is default branch in remote GitHub repository
 | Command | Description |
 | ------- | ----------- |
 | `git branch` |     check branches (asterisk denotes the current branch) |
@@ -71,7 +71,7 @@
 | ------- | ----------- |
 | `git diff` |   compare working file with stage file |
 | `git diff --staged` |      compare staged file with last commited file |
-| `git diff {source_branch} {target_branch}` |  Preview changes before merge |
+| `git diff {source_branch} {target_branch}` |  preview changes before merge |
 
 | Command | Description |
 | ------- | ----------- |
